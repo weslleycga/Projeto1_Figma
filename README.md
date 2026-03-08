@@ -19,6 +19,7 @@ A importância da semântica no HTML para acessibilidade.
 Organização de arquivos e pastas para projetos web.
 
 🔗 Links Úteis
-Link do Protótipo no Figma
+Link do Protótipo no Figma:
+https://www.figma.com/design/4a0rdiL46V37Ol9rUGmdlS/Yoga-app?node-id=1-16&t=IT9gqzsctbxGDKtF-0
+Link do Projeto Online (GitHub Pages):
 
-Link do Projeto Online (GitHub Pages)
