@@ -98,7 +98,7 @@ strong{
     text-align: center; /* Center the text */
     color: #000000; /* Text color for "OU" */
 }
-
+/* Style for the container that holds the images */
 .container{
     text-decoration: none; /* Remove underline from links */
     display: flex; /* Use flexbox to arrange items in a row */
@@ -106,7 +106,7 @@ strong{
     gap: 20px; /* Add space between the items */
     align-items: center; /* Center items vertically */
 }
-
+/* Style for the images inside the container */
 .img-link img{
     width: 40px; /* Set width of the images to 40px */
     height: 40px; /* Set height of the images to 40px */
