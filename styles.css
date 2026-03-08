@@ -1,3 +1,4 @@
+/* Global styles for the entire page */
 *{
   margin: 0;
   padding: 0;
@@ -5,12 +6,12 @@
   background-color: #e5e5e5;
   font-family: 'roboto', sans-serif;
 }
-
+/* Style for the logo image */
 .logo{
     display: block;
     margin: 195px auto 122px auto;
 }
-
+/* Style for the input fields */
 input{
     width: 321px; /* Set width to 321px */
     height: 46px; /* Set height to 46px */
@@ -21,7 +22,7 @@ input{
     display: block; /* Display as a block element */
     margin: 0 auto /* Center horizontally with auto margins */ 
 }
-
+/* Style for the placeholder text in the input fields */
 input::placeholder {
     line-height: 15px; /* Set line height to 15px */
     font-weight: 400; /* Normal font weight */
@@ -30,11 +31,12 @@ input::placeholder {
     padding-left: 19px; /* Add left padding of 19px */
     font-size: 13px; /* Placeholder text size */
 }
-
+/* Style for the password input field */
 .password{
     margin-top: 21px; /* Add top margin of 19px */
 }
 
+/* Style for the "Esqueci minha senha" link */
 .forgot{
     margin: 35px 30px 38px 0; /* Add margin: top 35px, right 30px, bottom 30px, left 0 */
     display: block;
@@ -47,6 +49,7 @@ input::placeholder {
     text-decoration: none;
 }
 
+/* Style for the "Entrar" button */
 button{
     display: block;
     margin: 0 auto; /* Center horizontally with auto margins */
@@ -64,3 +67,31 @@ button{
     cursor: pointer;
 }
 
+/* Style for the "Criar conta" text */
+.signup{
+    display: block;
+    margin-top: 21px; /* Add top margin of 21px */
+    margin-bottom: 62px; /* Add bottom margin of 62px */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from the link */
+    font-style: normal; /* Normal font style */
+    font-weight: 400; /* Normal font weight */
+    font-size: 15px; /* Font size for "Criar conta" */
+    line-height: 18px; /* Line height for "Criar conta" */
+    color: #969696; /* Text color for "Criar conta" */
+
+}
+/* Style for the "Criar conta" text */
+strong{
+    color: #323232; /* Text color for "Criar conta" */
+}
+
+/* Style for the "OU" text */
+.or{
+    font-style: normal; /* Normal font style */
+    font-weight: 900; /* Bold font weight */
+    font-size: 18px; /* Font size for "OU" */
+    line-height: 21px; /* Line height for "OU" */
+    text-align: center; /* Center the text */
+    color: #000000; /* Text color for "OU" */
+}  
