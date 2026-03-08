@@ -6,6 +6,9 @@
   background-color: #e5e5e5;
   font-family: 'roboto', sans-serif;
 }
+a{
+    text-decoration: none; /* Remove underline from links */
+}
 /* Style for the logo image */
 .logo{
     display: block;
@@ -96,4 +99,16 @@ strong{
     color: #000000; /* Text color for "OU" */
 }
 
+.container{
+    text-decoration: none; /* Remove underline from links */
+    display: flex; /* Use flexbox to arrange items in a row */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Add space between the items */
+    align-items: center; /* Center items vertically */
+}
 
+.img-link img{
+    width: 40px; /* Set width of the images to 40px */
+    height: 40px; /* Set height of the images to 40px */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
