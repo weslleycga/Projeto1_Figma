@@ -10,3 +10,57 @@
     display: block;
     margin: 195px auto 122px auto;
 }
+
+input{
+    width: 321px; /* Set width to 321px */
+    height: 46px; /* Set height to 46px */
+    background: #f7f7f7; /* Light gray background */
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.09);
+    border-radius: 10px; /* Rounded corners */
+    border: none; /* Remove default border */
+    display: block; /* Display as a block element */
+    margin: 0 auto /* Center horizontally with auto margins */ 
+}
+
+input::placeholder {
+    line-height: 15px; /* Set line height to 15px */
+    font-weight: 400; /* Normal font weight */
+    font-style: normal; /* Normal font style */
+    color: #969696; /* Placeholder text color */
+    padding-left: 19px; /* Add left padding of 19px */
+    font-size: 13px; /* Placeholder text size */
+}
+
+.password{
+    margin-top: 21px; /* Add top margin of 19px */
+}
+
+.forgot{
+    margin: 35px 30px 38px 0; /* Add margin: top 35px, right 30px, bottom 30px, left 0 */
+    display: block;
+    font-style: normal; /* Normal font style */
+    font-weight: 400; /* Normal font weight */
+    font-size: 13px; /* Font size for "Esqueci minha senha" */
+    line-height: 15px; /* Line height for "Esqueci minha senha" */
+    color: #000000; /* Text color for "Esqueci minha senha" */
+    text-align: right; /* Align text to the right */
+    text-decoration: none;
+}
+
+button{
+    display: block;
+    margin: 0 auto; /* Center horizontally with auto margins */
+    background: #323232;
+    box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    width: 133px;
+    height: 46px;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
